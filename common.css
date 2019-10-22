@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.con {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top-bar {
+    text-align: center;
+}
+
+.top-bar > .menu-box-1 > ul {
+    display: inline-block;
+    background-color: #afafaf;
+}
+
+.top-bar > .menu-box-1 > ul > li {
+    display: inline-block;
+}
+
+.top-bar > .menu-box-1 > ul > li > a {
+    display: block;
+    padding: 20px;
+}
+
+.top-bar > .menu-box-1 > ul > li:hover > a {
+    background-color: black;
+    color: white;
+}
+
+.top-bar > .menu-box-1 > ul > li.selected > a {
+    background-color: #343434;
+    color: white;
+}
+
+
+div {
+    text-align: center;
+}
+div>img{
+    border:10px solid firebrick;
+}
+
+.h1-1 {
+    text-align: center;
+    border: 10px dotted firebrick;
+    font-size:4rem;
+	color: white;
+    
+    
+}
+
+body{
+	background-color: black;
+}
+
+
+}
+section>img{
+     border:10px solid firebrick;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.h2-1{
+    text-align: center;
+	
+    background-color:slategray;
+    color: white;
+    width: :100%;
+    height: 150px;
+	
+      
+}
+
+.h2-1>a{
+    display: inline-block;
+    padding:25px;
+    font-size: 33px;
+}
+
+.menu-3{
+	text-align: center;
+	widows: 100%;
+	background-color: black;
+	margin-bottom: 50px;
+    padding-top: 70px;
+}
+.menu-2{
+	text-align: center;
+	padding: 70px;
+}
+
+.con1{
+    color: white;
+    text-align: center;
+}
+    
